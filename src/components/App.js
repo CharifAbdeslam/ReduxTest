@@ -3,7 +3,7 @@ import Todo from './Todo';
 class App extends Component {
   render() {
     return (
-      <div className="container text-center">
+      <div className="container">
       <Todo />
       </div>
     );

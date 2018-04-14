@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import users from './api';
+import all from './api';
 const reducers = combineReducers({
-users: users
+users: all
 });
 export default reducers;
